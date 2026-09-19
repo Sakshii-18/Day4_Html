@@ -1,0 +1,47 @@
+.container {
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    gap: 10px;
+    align-items: center;
+}
+
+.card {
+    width: 150px;
+    margin-left: 3px;
+    box-shadow: 0 0 5px gray;
+}
+
+.photo {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.info {
+    padding: 8px;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.friends img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.friends p {
+    display: inline-block;
+    font-size: 11px;
+    color: gray;
+}
+
+button {
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+}

@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    column-gap: 15px;
+}
+
+.card {
+    width: 150px;
+    box-shadow: 0 0 5px gray;
+}
+
+.photo {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+}
+
+.info {
+    padding: 8px;
+}
+
+.name {
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.friends {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 8px;
+}
+
+.friends img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.friends p {
+    font-size: 11px;
+    color: gray;
+    margin: 0;
+}
+
+button {
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 3px;
+    cursor: pointer;
+}
