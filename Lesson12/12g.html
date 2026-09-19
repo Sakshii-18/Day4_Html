@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>12g - Flexbox</title>
+
+    <style>
+        .container {
+            width: 350px;
+        }
+
+        .profile {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .photo {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 10px;
+        }
+
+        .info {
+            flex: 1;
+        }
+
+        .name {
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .description,
+        .popular {
+            font-size: 12px;
+            color: gray;
+        }
+
+        button {
+            background-color: #4393e9;
+            color: white;
+            border: none;
+            padding: 8px 12px;
+            border-radius: 4px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="profile">
+            <img class="photo" src="../photos/cat_image.jpg">
+
+            <div class="info">
+                <div class="name">oliver</div>
+                <div class="description">the cat</div>
+                <div class="popular">Popular</div>
+            </div>
+
+            <button>Follow</button>
+        </div>
+
+
+        <div class="profile">
+            <img class="photo" src="../photos/cat_image.jpg">
+
+            <div class="info">
+                <div class="name">Mimi</div>
+                <div class="description">Sleepy Cat</div>
+                <div class="popular">Popular</div>
+            </div>
+
+            <button>Follow</button>
+        </div>
+
+
+        <div class="profile">
+            <img class="photo" src="../photos/cat_image.jpg">
+
+            <div class="info">
+                <div class="name">Rex</div>
+                <div class="description">Happy Bulldog</div>
+                <div class="popular">Popular</div>
+            </div>
+
+            <button>Follow</button>
+        </div>
+
+    </div>
+
+</body>
+</html>
